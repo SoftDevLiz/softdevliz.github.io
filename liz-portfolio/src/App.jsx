@@ -1,9 +1,11 @@
 import React from "react";
-import ProjectCarousel from "./ProjectCarousel";
+import Hero from "./components/Hero";
+import ProjectCarousel from "./components/ProjectCarousel";
 
 function App() {
   return (
     <>
+      <Hero />
       <ProjectCarousel />
     </>
   )
