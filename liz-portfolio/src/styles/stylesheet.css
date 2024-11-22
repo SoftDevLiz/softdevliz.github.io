@@ -5,9 +5,15 @@
 .hero h1 {
     font-family: "Geist Mono", monospace;
     font-size: 80px;
+    color: dark;
 }
 
 .hero h2 {
+    font-family: "Geist Mono", monospace;
+    font-weight: 400;
+}
+
+.carousel h2 {
     font-family: "Geist Mono", monospace;
     font-weight: 400;
 }
