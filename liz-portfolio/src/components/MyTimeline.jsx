@@ -6,8 +6,9 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import { Typography } from "@mui/material";
+import CodecademyLogo from "../assets/codecademy.png";
 
-
+console.log(CodecademyLogo)
 
 function MyTimeline() {
     return (
@@ -15,7 +16,13 @@ function MyTimeline() {
       <Timeline position="alternate">
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineDot />
+          <TimelineDot>
+          <img 
+                src={CodecademyLogo} 
+                alt="Codecademy Logo" 
+                style={{ width: '40px', height: '40px', borderRadius: '50%' }} // Optional styling
+          />
+          </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>          
