@@ -18,9 +18,18 @@
     font-size: 80px;
 }
 
-.hero h1 span:hover {
-    color: blueviolet;
+.underscore {
+    animation: flash 1s steps(2, start) infinite;
 }
+
+@keyframes flash {
+    0%, 100% {
+      color: rgb(0, 255, 0);
+    }
+    50% {
+      color: transparent;
+    }
+  }
 
 .hero h2 {
     font-family: "Geist Mono", monospace;
