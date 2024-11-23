@@ -8,7 +8,7 @@
     margin-left: 20px;
     margin-right: 20px;
   }
-  
+
 .hero {
     text-align: center;
 }
@@ -16,6 +16,10 @@
 .hero h1 {
     font-family: "Geist Mono", monospace;
     font-size: 80px;
+}
+
+.hero h1 span:hover {
+    color: blueviolet;
 }
 
 .hero h2 {
