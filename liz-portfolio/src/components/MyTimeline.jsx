@@ -4,11 +4,11 @@ import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
-import TimelineDot from '@mui/lab/TimelineDot';
 import { Typography } from "@mui/material";
 import CodecademyLogo from "../assets/codecademy.png";
-
-console.log(CodecademyLogo)
+import IxdfLogo from "../assets/Ixdf.png";
+import Cs50Logo from "../assets/CS50.png";
+import CodespaceLogo from "../assets/codespace.jpeg";
 
 function MyTimeline() {
     return (
@@ -16,13 +16,11 @@ function MyTimeline() {
       <Timeline position="alternate">
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineDot>
           <img 
                 src={CodecademyLogo} 
                 alt="Codecademy Logo" 
-                style={{ width: '40px', height: '40px', borderRadius: '50%' }} // Optional styling
+                style={{ width: '40px', height: '40px' }}
           />
-          </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>          
@@ -33,7 +31,11 @@ function MyTimeline() {
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineDot />
+          <img 
+                src={IxdfLogo} 
+                alt="Interaction Design Foundation Logo" 
+                style={{ width: '40px', height: '40px' }}
+          />
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>          
@@ -44,7 +46,11 @@ function MyTimeline() {
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineDot />
+        <img 
+                src={Cs50Logo} 
+                alt="Harvard CS50 Logo" 
+                style={{ width: '40px', height: '40px' }}
+        />
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>          
@@ -55,7 +61,11 @@ function MyTimeline() {
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineDot />
+        <img 
+                src={CodespaceLogo} 
+                alt="Codespace Academy Logo" 
+                style={{ width: '40px', height: '40px', borderRadius: '50%'}}
+          />
         </TimelineSeparator>
         <TimelineContent>          
         <Typography variant="h6">Software Development with Distinction</Typography>
