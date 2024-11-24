@@ -6,11 +6,11 @@ import Masonry from "./Masonry";
 function ProfileSection() {
     return (
         <div className="profile-container">
-            <div>
+            <div className="timeline-section">
                 <BackgroundHeading />
                 <MyTimeline />
             </div>
-            <div>
+            <div className="masonry-section">
                 <Masonry />
             </div>
         </div>

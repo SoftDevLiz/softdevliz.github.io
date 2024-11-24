@@ -5,7 +5,7 @@ function BackgroundHeading() {
     return (
         <div className="background-heading">
             <h2>A little background</h2> 
-            <img src={Arrow} width={"80px"}/>
+            <img src={Arrow}/>
         </div>
     )
 }
