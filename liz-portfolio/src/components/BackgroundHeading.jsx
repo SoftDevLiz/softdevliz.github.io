@@ -3,7 +3,7 @@ import Arrow from "../assets/bckgroundarrow.png"
 
 function BackgroundHeading() {
     return (
-        <div className="subheading">
+        <div className="background-heading">
             <h2>A little background</h2> 
             <img src={Arrow} width={"80px"}/>
         </div>
