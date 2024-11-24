@@ -33,7 +33,16 @@
 .hero h2 {
     font-family: "Geist Mono", monospace;
     font-weight: 400;
-    margin-bottom: 30px;
+
+}
+
+.subheading {
+    margin-left: 400px;
+    font-family: Lacquer;
+}
+
+.subheading img {
+    margin-left: 100px;
 }
 
 .carousel h2 {

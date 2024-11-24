@@ -1,11 +1,13 @@
 import React from "react";
+import Arrow from "../assets/bckgroundarrow.png"
 
-function Subheading() {
+function BackgroundHeading() {
     return (
-        <div>
-            <h2>A bit of background</h2>
+        <div className="subheading">
+            <h2>A little background</h2> 
+            <img src={Arrow} width={"80px"}/>
         </div>
     )
 }
 
-export default Subheading;
+export default BackgroundHeading;
