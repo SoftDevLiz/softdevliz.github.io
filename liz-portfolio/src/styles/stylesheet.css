@@ -5,8 +5,7 @@
   }
 
   body {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 20px;
   }
 
 .hero {
@@ -34,6 +33,7 @@
 .hero h2 {
     font-family: "Geist Mono", monospace;
     font-weight: 400;
+    margin-bottom: 30px;
 }
 
 .carousel h2 {
