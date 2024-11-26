@@ -10,6 +10,7 @@
 
 .hero {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .hero h1 {
@@ -33,11 +34,38 @@
 .hero h2 {
     font-family: "Geist Mono", monospace;
     font-weight: 400;
-    margin-bottom: 30px;
+
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+.timeline-section {
+    border: 2px solid black;
+}
+
+.background-heading {
+    font-family: Lacquer;
+    font-size: 18px;
+}
+
+.background-heading img {
+    width: 120px;
+    margin-left: 150px;
+}
+
+.masonry-section {
+    border: 2px solid black;
 }
 
 .carousel h2 {
-    font-family: "Geist Mono", monospace;
+    font-family: "Lacquer";
     font-weight: 400;
 }
 

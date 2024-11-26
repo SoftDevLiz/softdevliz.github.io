@@ -12,7 +12,7 @@ import CodespaceLogo from "../assets/codespace.jpeg";
 
 function MyTimeline() {
     return (
-      <div>
+      <div className="timeline">
       <Timeline position="alternate">
       <TimelineItem>
         <TimelineSeparator>
@@ -26,8 +26,7 @@ function MyTimeline() {
         <TimelineContent>          
           <Typography variant="h6">Learn HTML</Typography>
           <Typography color="silver" variant="body2">Codecademy | 2021</Typography>
-          <Typography>Exploring my interest <br></br>
-          in code</Typography>
+          <Typography>Exploring my interest in code</Typography>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
@@ -57,7 +56,7 @@ function MyTimeline() {
         <TimelineContent>          
           <Typography variant="h6">Harvard CS50</Typography>
           <Typography color="silver" variant="body2">Harvard Online | 2023</Typography>
-          <Typography>Harvard's CS50 in preparation <br></br>for my upcoming course</Typography>
+          <Typography>Harvard's CS50 in preparation for my upcoming course</Typography>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
@@ -71,7 +70,7 @@ function MyTimeline() {
         <TimelineContent>          
         <Typography variant="h6">Software Development with Distinction</Typography>
           <Typography color="silver" variant="body2">CodeSpace Academy | 2023 - 2024</Typography>
-          <Typography>Completed  a 1 year course <br></br>in software development!</Typography>
+          <Typography>Completed a 1 year course in software development!</Typography>
         </TimelineContent>
       </TimelineItem>
     </Timeline>
