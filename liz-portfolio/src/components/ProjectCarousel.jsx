@@ -19,7 +19,6 @@ function ProjectCarousel() {
         <Carousel
           items={items}
           startIndex={0}
-          onChange={(currentIndex) => console.log(currentIndex)}
         />
       </div>
     </div>
