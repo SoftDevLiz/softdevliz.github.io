@@ -1,6 +1,7 @@
 import React from "react";
 import BackgroundHeading from "./BackgroundHeading";
 import MyTimeline from "./MyTimeline";
+import AboutMeHeading from "./AboutMeHeading";
 import Masonry from "./Masonry";
 
 function ProfileSection() {
@@ -10,7 +11,8 @@ function ProfileSection() {
                 <BackgroundHeading />
                 <MyTimeline />
             </div>
-            <div className="masonry-section">
+            <div className="aboutme-section">
+                <AboutMeHeading />
                 <Masonry />
             </div>
         </div>
