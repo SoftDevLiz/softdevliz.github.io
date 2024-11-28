@@ -43,11 +43,6 @@
     justify-content: space-around;
     align-items: center;
     margin-bottom: 20px;
-    border: 2px solid black;
-}
-
-.timeline-section {
-    border: 2px solid black;
 }
 
 .background-heading {
@@ -58,10 +53,6 @@
 .background-heading img {
     width: 120px;
     margin-left: 150px;
-}
-
-.aboutme-section {
-    border: 2px solid black;
 }
 
 .aboutme-heading {
