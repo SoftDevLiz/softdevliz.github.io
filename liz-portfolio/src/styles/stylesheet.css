@@ -72,11 +72,3 @@
     font-weight: 400;
 }
 
-.socials-section {
-    width: 700px;
-    font-family: Geist Mono, monospace;
-}
-
-.socials-section div {
-    display: flex;
-}
