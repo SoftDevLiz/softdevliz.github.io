@@ -3,6 +3,7 @@ import BackgroundHeading from "./BackgroundHeading";
 import MyTimeline from "./MyTimeline";
 import AboutMeHeading from "./AboutMeHeading";
 import Masonry from "./Masonry";
+import Socials from "./Socials";
 
 function ProfileSection() {
     return (
@@ -14,6 +15,7 @@ function ProfileSection() {
             <div className="aboutme-section">
                 <AboutMeHeading />
                 <Masonry />
+                <Socials />
             </div>
         </div>
     )
