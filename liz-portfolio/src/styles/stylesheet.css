@@ -46,7 +46,7 @@
 }
 
 .background-heading {
-    font-family: Lacquer;
+    font-family: "Lacquer";
     font-size: 18px;
     text-align: left;
 }
@@ -57,7 +57,7 @@
 }
 
 .aboutme-heading {
-    font-family: Lacquer;
+    font-family: "Lacquer";
     font-size: 18px;
     text-align: right;
 }
@@ -79,9 +79,9 @@
     padding: 0 5px;
 }
 
-.carousel h2 {
+.carousel {
     font-family: "Lacquer";
-    font-weight: 400;
+    font-size: 18px;
 }
 
 .socials-section {
