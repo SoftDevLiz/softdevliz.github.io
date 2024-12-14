@@ -3,7 +3,7 @@ import BackgroundHeading from "./BackgroundHeading";
 import MyTimeline from "./MyTimeline";
 import AboutMeHeading from "./AboutMeHeading";
 import Masonry from "./Masonry";
-import Socials from "./Socials";
+import Introduction from "./Introduction";
 
 function ProfileContainer() {
     return (
@@ -15,7 +15,7 @@ function ProfileContainer() {
             <div className="aboutme-section">
                 <AboutMeHeading />
                 <Masonry />
-                <Socials />
+                <Introduction />
             </div>
         </div>
     )
