@@ -67,8 +67,22 @@
     margin-right: 30px;
 }
 
+.socials-section {
+    margin-top: 20px;
+    font-family: Geist Mono, monospace;
+}
+
+.socials-section h2 {
+    margin-bottom: 10px;
+}
+
+.socials-section img {
+    margin-right: 30px;
+}
+
 .carousel h2 {
     font-family: "Lacquer";
     font-weight: 400;
 }
+
 

@@ -45,7 +45,7 @@ const itemData = [
 
 function Masonry() {
   return (
-    <Box sx={{ width: 600, height: 350, overflowY: 'scroll', borderRadius: 20 }}>
+    <Box sx={{ width: 600, height: 450, overflowY: 'scroll', borderRadius: 20 }}>
       <ImageList variant="masonry" cols={3} gap={8}>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>

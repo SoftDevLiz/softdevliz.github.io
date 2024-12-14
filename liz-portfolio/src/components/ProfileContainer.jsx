@@ -2,7 +2,6 @@ import React from "react";
 import BackgroundHeading from "./BackgroundHeading";
 import MyTimeline from "./MyTimeline";
 import AboutMeHeading from "./AboutMeHeading";
-import Introduction from "./Introduction";
 import Masonry from "./Masonry";
 import Socials from "./Socials";
 
@@ -15,7 +14,6 @@ function ProfileContainer() {
             </div>
             <div className="aboutme-section">
                 <AboutMeHeading />
-                <Introduction />
                 <Masonry />
                 <Socials />
             </div>
