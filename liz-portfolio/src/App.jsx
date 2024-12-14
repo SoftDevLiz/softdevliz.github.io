@@ -1,14 +1,14 @@
 import React from "react";
 import Hero from "./components/Hero";
 import ProjectCarousel from "./components/ProjectCarousel";
-import ProfileSection from "./components/ProfileSection";
+import ProfileContainer from "./components/ProfileContainer";
 import "./styles/stylesheet.css"
 
 function App() {
   return (
     <>
       <Hero />
-      <ProfileSection />
+      <ProfileContainer />
       <ProjectCarousel />
     </>
   )

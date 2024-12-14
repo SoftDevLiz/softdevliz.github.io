@@ -5,7 +5,7 @@ import AboutMeHeading from "./AboutMeHeading";
 import Masonry from "./Masonry";
 import Socials from "./Socials";
 
-function ProfileSection() {
+function ProfileContainer() {
     return (
         <div className="profile-container">
             <div className="timeline-section">
@@ -21,4 +21,4 @@ function ProfileSection() {
     )
 }
 
-export default ProfileSection;
+export default ProfileContainer;
