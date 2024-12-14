@@ -2,8 +2,8 @@ import React from 'react'
 
 function Introduction() {
     return (
-        <div>
-            <p>Hello! I am a junior dev based in Cape Town, South Africa. </p>
+        <div className='introduction'>
+            <p>I'm based in Cape Town, South Africa. I enjoy what I do, and <span className='highlight'>I know I would be a great addition to your team.</span></p>
         </div>
     )
 }

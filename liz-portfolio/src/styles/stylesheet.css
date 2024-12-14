@@ -67,9 +67,26 @@
     margin-right: 30px;
 }
 
+.introduction {
+    margin-top: 20px;
+    width: 600px;
+    font-size: 22px;
+    font-family: "Geist Mono", monospace;
+}
+
+.highlight {
+    background: linear-gradient(transparent 70%, #fff176 70%);
+    padding: 0 5px;
+}
+
+.carousel h2 {
+    font-family: "Lacquer";
+    font-weight: 400;
+}
+
 .socials-section {
     margin-top: 20px;
-    font-family: Geist Mono, monospace;
+    font-family: "Geist Mono", monospace;
 }
 
 .socials-section h2 {
@@ -78,11 +95,6 @@
 
 .socials-section img {
     margin-right: 30px;
-}
-
-.carousel h2 {
-    font-family: "Lacquer";
-    font-weight: 400;
 }
 
 
