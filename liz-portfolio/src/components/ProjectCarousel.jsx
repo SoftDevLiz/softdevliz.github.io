@@ -14,7 +14,7 @@ const items = [
 function ProjectCarousel() {
   return (
     <div className='carousel'>
-      <h2>Projects:</h2>
+      <h2>Projects</h2>
       <div className="App">
         <Carousel
           items={items}

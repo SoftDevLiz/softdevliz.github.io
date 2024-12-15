@@ -20,7 +20,7 @@ const images = [
 function Socials() {
     return (
         <div className="socials-section">
-            <h2>Links:</h2>
+            <h2>Links</h2>
             {images.map((image) => (
                 <img
                     key={image.alt}
