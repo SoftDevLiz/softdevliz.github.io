@@ -85,6 +85,13 @@
     font-size: 18px;
 }
 
+.contactdeets {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-family: "Geist Mono", monospace;
+  font-weight: 400;
+}
+
 .socials-section {
     margin-top: 20px;
     text-align: center;
@@ -92,11 +99,98 @@
     font-family: "Lacquer";
 }
 
+.socials-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+  font-family: "Geist Mono", monospace;
+}
+
+.links-row { display: contents; }
+
+.contact-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+
+.contact-phone {
+  font-weight: 400;
+}
+
+.contact-email {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.copy-toast {
+  position: fixed;
+  background: #2e7d32;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: "Geist Mono", monospace;
+  animation: fadeInOut 1.2s ease forwards;
+  pointer-events: none;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(-6px); }
+  10% { opacity: 1; transform: translateY(0); }
+  90% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-6px); }
+}
+
 .socials-section img {
-    margin-top: 20px;
-    margin-right: 30px;
     width: 50px;
     height: 50px;
 }
 
+.socials-section .socials-button {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.socials-section .socials-button:disabled {
+  cursor: default;
+}
+
+.socials-section .socials-button img {
+  display: block;
+  transition: transform 150ms ease, filter 200ms ease;
+}
+
+.socials-section .socials-button:hover img,
+.socials-section .socials-button:focus-visible img {
+  transform: translateY(-2px) scale(1.05);
+  filter: brightness(1.05);
+}
+
+.socials-section .socials-button:active img {
+  transform: translateY(0) scale(0.97);
+  filter: brightness(0.98);
+}
+
+.socials-section .socials-button:focus-visible {
+  outline: 2px solid #90caf9;
+  outline-offset: 4px;
+  border-radius: 8px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .socials-section .socials-button img {
+    transition: none;
+  }
+}
 

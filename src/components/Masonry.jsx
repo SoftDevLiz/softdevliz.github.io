@@ -13,10 +13,6 @@ const itemData = [
     title: 'Coding'
   },
   {
-    img: '/assets/me3.jpg',
-    title: 'Me'
-  },
-  {
     img: '/assets/bike.mp4',
     title: 'Bike'
   },
@@ -31,6 +27,10 @@ const itemData = [
   {
     img: '/assets/meixdf.jpg',
     title: 'Me Ixdf'
+  },
+  {
+    img: '/assets/recentsetup.jpg',
+    title: 'Setup'
   },
   {
     img: '/assets/mevid.mp4',
@@ -49,11 +49,23 @@ function Masonry() {
       <ImageList variant="masonry" cols={3} gap={8}>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
-            <img
-              src={item.img}
-              alt={item.title}
-              loading="lazy"
-            />
+            {item.img.endsWith('.mp4') ? (
+              <video
+                src={item.img}
+                preload="metadata"
+                autoPlay
+                loop
+                playsInline
+                muted
+                style={{ width: '100%', height: 'auto', display: 'block', borderRadius: 8 }}
+              />
+            ) : (
+              <img
+                src={item.img}
+                alt={item.title}
+                loading="lazy"
+              />
+            )}
           </ImageListItem>
         ))}
       </ImageList>
